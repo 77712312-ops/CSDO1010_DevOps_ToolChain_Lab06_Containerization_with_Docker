@@ -91,26 +91,26 @@
 @keyframes fadeInUp {
     0% {
         opacity: 0;
-        fill: #02A8EF;
+        fill: #e1ff00;
         transform: translateY(2%);
         transform: rotateZ(-5deg);
     }
 
     30% {
         opacity: 0.5;
-        fill: #63D0FF;
+        fill: #ac00f5;
         transform: translateY(0%);
     }
 
     50% {
         opacity: 1;
-        fill: #F24C53;
+        fill: #0800ff;
         transform: translateY(-2%);
     }
 
     100% {
         opacity: 0;
-        fill: #D4F2FF;
+        fill: #0d0227;
         transform: translateY(2%);
         transform: rotateZ(5deg);
     }
