@@ -1,1 +1,18 @@
+version: "3.9" 
+ 
+services: 
+  web: 
+    # Local-first: build from the Dockerfile in this directory 
+    build: 
+      context: . 
+      dockerfile: Dockerfile 
+    image: lab06-nginx:1.0 
+    container_name: lab06-nginx 
+    ports: 
+      - "8080:80" 
+    restart: unless-stopped 
+ 
+    # Optional: live-edit local content (uncomment to mount) 
+    # volumes: 
+    #   - ./Docs:/usr/share/nginx/html:ro
 # Add your material here
